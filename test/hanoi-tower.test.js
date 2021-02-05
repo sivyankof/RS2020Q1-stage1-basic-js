@@ -65,7 +65,7 @@ describe('Hanoi tower', () => {
             assert.deepEqual(calculateHanoi(384, 29564582), {turns: 3.940200619639448e+115, seconds: 4.79787680769578e+111});
             assert.deepEqual(calculateHanoi(418, 57132412), {turns: 6.769213120412146e+125, seconds: 4.2653839353892015e+121});
             assert.deepEqual(calculateHanoi(997, 23587654), {turns: 1.3393857589828342e+300, seconds: 2.044200212678295e+296});
-            assert.deepEqual(calculateHanoi(788, 64589644), {turns: 1.6279332111523082e+237, seconds: 9.073528196173847e+232});
+            assert.deepEqual(calculateHanoi(788, 64589644), {turns: 1.6279332111523082e+237, seconds: 9.073528196173847e+232}):
             assert.deepEqual(calculateHanoi(181, 17548965), {turns: 3.064991081731778e+54, seconds: 6.2875319964649774e+50});
             assert.deepEqual(calculateHanoi(456, 93548991), {turns: 1.8607071341967536e+137, seconds: 7.16046812638344e+132});
             assert.deepEqual(calculateHanoi(384, 61295213), {turns: 3.940200619639448e+115, seconds: 2.3141647669455055e+111});
